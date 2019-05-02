@@ -1,11 +1,11 @@
 /* CSS Reset */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
 }
 
 /* Global Styles */
@@ -38,25 +38,25 @@ header {
 
 #expand-menu {
 	display: none;
-    background: transparent;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    margin: 20px; 
-    padding: 7.5px 6.5px;
-    position: absolute;
+	background: transparent;
+	outline: none;
+	border: none;
+	cursor: pointer;
+	margin: 20px; 
+	padding: 7.5px 6.5px;
+	position: absolute;
 }
 
 .expand-menu-button {
-    width: 35px;
-    height: 5px;
-    background: black;
-    margin-bottom: 7.5px;
-    border-radius: 2.5px;
+	width: 35px;
+	height: 5px;
+	background: black;
+	margin-bottom: 7.5px;
+	border-radius: 2.5px;
 }
 
 .expand-menu-button:last-child {
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
 
 #nav-list {
@@ -79,9 +79,9 @@ header {
 	font-size: 20px;
 	color: black;
 	font-weight: bold;
-    letter-spacing: 1.35px;
-    padding: 20px 30px;
-    display: block;
+	letter-spacing: 1.35px;
+	padding: 20px 30px;
+	display: block;
 }
 
 /* Landing Page */
@@ -111,7 +111,7 @@ header {
 	width: 100%;
 	transform: skew(-30deg);
 	border-radius: 40px;
-    box-shadow: 17.5px 10px rgba(0,0,0,0.1);
+	box-shadow: 17.5px 10px rgba(0,0,0,0.1);
 }
 
 #title {
@@ -197,15 +197,15 @@ header {
 	}
 
 	#title {
-	    margin: 100px 20px;
+		margin: 100px 20px;
 	}
 
 	#title-name {
-	    font-size: 70px;
+		font-size: 70px;
 	}
 
 	#title h2 {
-	    margin-top: 0;
+		margin-top: 0;
 	}
 
 	#title h2 span {
@@ -235,8 +235,8 @@ header {
 	}
 
 	#expand-menu:focus + #nav-list {
-	    display: inline-block;
-	    width: 100%;
+		display: inline-block;
+		width: 100%;
 	}
 
 	#nav-list {
@@ -257,7 +257,7 @@ header {
 	}
 
 	#title {
-	    margin: 100px 25px;
+		margin: 100px 25px;
 	}
 
 	#title-name span {
@@ -267,13 +267,13 @@ header {
 
 	#title-name span:last-child {
 		margin-top: -25px;
-    	margin-bottom: 10px;
+		margin-bottom: 10px;
 	}
 
 	#title h2 span {
-	    visibility: visible;
-	    display: block;
-	    font-size: 40px;
+		visibility: visible;
+		display: block;
+		font-size: 40px;
 	}
 
 }
@@ -287,7 +287,7 @@ header {
 
 	#title-name span:last-child {
 		margin-top: -25px;
-    	margin-bottom: 10px;
+		margin-bottom: 10px;
 	}
 
 }
